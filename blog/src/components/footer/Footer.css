@@ -1,0 +1,13 @@
+Footer {
+  background-color: #000000;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
+
+footer h3 {
+  color: #ffffff;
+  text-align: center;
+}
