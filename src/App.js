@@ -3,8 +3,8 @@ import './App.css';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Home from './pages/home/Home';
-import About from './pages/about/About';
-import Posts from "./pages/posts/Posts";
+import Cadastro from './pages/cadastro/Cadastro';
+import Alunos from "./pages/alunos/Alunos";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/posts" element={<Posts /> } />
+        <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/alunos" element={<Alunos /> } />
       </Routes>
       <Footer/>
     </BrowserRouter>
